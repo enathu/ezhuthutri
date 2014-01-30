@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<head>
+	<title>Tamil Web Fonts Previewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.box').hide();
+			$('#font1').show();
+			$('#selectFont').change(function () {
+			$('.box').hide();
+			$('#'+$(this).val()).show();
+		});
+		});
+	</script>
+</head>
+
+<body>
+<center>
+		<h1 class="logo">எழுதுற்றி<span class="star">*</span></h1>
+		<select id="selectFont">
+			<option value="font1">Noto Sans Tamil</option>
+			<option value="font2">Karla Tamil Inclined</option>
+			<option value="font3">Karla Tamil Upright</option>
+			<option value="font4">Lohit Tamil</option>
+			<option value="font5">Noto Sans Tamil UI</option>
+			<option value="font6">Droid Sans Tamil</option>
+		</select>
+
+			<div id="font1" class="box noto">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+			<div id="font2" class="box karla">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+			<div id="font3" class="box karla-right">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+			<div id="font4" class="box lohit">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+			<div id="font5" class="box noto-ui">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+			<div id="font6" class="box droid-sans">
+				<p contenteditable="true">எதையாவது எழுதுங்க...</p>
+			</div>
+</center>
+</body>

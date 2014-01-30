@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/earlyaccess/karlatamilinclined.css);
+@import url(http://fonts.googleapis.com/earlyaccess/lohittamil.css);
+@import url(http://fonts.googleapis.com/earlyaccess/karlatamilupright.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidsanstamil.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstamil.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstamilui.css);
+
+.box{
+    display:block;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #eee;
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+}
+
+#selectFont{
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.logo {
+	font-family: Droid Sans Tamil;
+	font-size: 30px;
+	padding: 20px;
+	color: #e45345;
+}
+
+.star {
+	font-family: Arial;
+	color: #a28365;
+	font-size: 40px;
+}
+
+.noto p{
+    font-family: Noto Sans Tamil, serif;
+}
+
+.karla p{
+    font-family: Karla Tamil Inclined, serif;
+}
+
+.karla-right p{
+    font-family: Karla Tamil Upright, serif;
+}
+
+.lohit p{
+    font-family: Lohit Tamil, serif;
+    font-size: 17px;
+}
+
+.noto-ui p{
+    font-family: Noto Sans Tamil UI, serif;
+}
+
+.droid-sans p{
+    font-family: Droid Sans Tamil, serif;
+}
