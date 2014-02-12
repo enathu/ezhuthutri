@@ -5,6 +5,8 @@ Google Font Previewer for Tamil Web Fonts available in Google Fonts
 
 கூகிள் எழுத்துரு வைப்பகத்திலுள்ள தமிழ் இணைய எழுத்துருக்களை முன்பார்க்கை செய்வதற்கான ஏற்பாடு
 
+முன்பார்க்கை செய்ய இங்கே செல்க [http://enathu.github.io/ezhuthutri/](http://enathu.github.io/ezhuthutri/)
+
 
 Available fonts
 ---------------
